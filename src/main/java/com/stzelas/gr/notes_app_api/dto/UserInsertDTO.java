@@ -17,7 +17,5 @@ public record UserInsertDTO(
         String firstname,
         @NotEmpty(message = "Το επίθετο δεν μπορεί να είναι κενό")
         @Size(min = 4, max = 15, message = "Το επίθετο πρέπει να είναι τουλάχιστον 3 χαρακτήρες")
-        String lastname,
-
-        Role role
+        String lastname
 ) {}
