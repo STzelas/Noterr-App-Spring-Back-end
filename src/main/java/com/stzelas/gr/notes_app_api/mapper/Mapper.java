@@ -1,10 +1,7 @@
 package com.stzelas.gr.notes_app_api.mapper;
 
 import com.stzelas.gr.notes_app_api.core.enums.Role;
-import com.stzelas.gr.notes_app_api.dto.NoteInsertDTO;
-import com.stzelas.gr.notes_app_api.dto.NoteReadOnlyDTO;
-import com.stzelas.gr.notes_app_api.dto.UserInsertDTO;
-import com.stzelas.gr.notes_app_api.dto.UserReadOnlyDTO;
+import com.stzelas.gr.notes_app_api.dto.*;
 import com.stzelas.gr.notes_app_api.model.Note;
 import com.stzelas.gr.notes_app_api.model.User;
 import lombok.RequiredArgsConstructor;
