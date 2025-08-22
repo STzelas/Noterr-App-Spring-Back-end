@@ -7,11 +7,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 @Entity
@@ -45,4 +42,7 @@ public class User extends AbstractEntity {
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Note> notes = new ArrayList<>();
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Todo> todos = new ArrayList<>();
 }
