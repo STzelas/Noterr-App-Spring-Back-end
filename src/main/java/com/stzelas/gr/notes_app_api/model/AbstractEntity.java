@@ -1,7 +1,6 @@
 package com.stzelas.gr.notes_app_api.model;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
