@@ -1,0 +1,35 @@
+package com.stzelas.gr.notes_app_api.model;
+
+import com.stzelas.gr.notes_app_api.core.enums.Importance;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name = "todos")
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class Todo extends AbstractEntity{
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Long id;
+
+    @Column(nullable = false)
+    String description;
+
+    @Column(name = "is_completed")
+    Boolean isCompleted;
+
+    @Enumerated(value = EnumType.STRING)
+    @Column(nullable = false)
+    Importance importance;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private User user;  // owner of note
+}
