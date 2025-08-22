@@ -27,7 +27,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-@Tag(name = "Notes CRUD API")
+@Tag(name = "Note Rest Controller")
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
