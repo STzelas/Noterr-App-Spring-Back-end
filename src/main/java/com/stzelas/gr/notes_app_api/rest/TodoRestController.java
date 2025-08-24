@@ -66,7 +66,7 @@ public class TodoRestController {
             summary = "Save a todo",
             responses = {
                     @ApiResponse(
-                            responseCode = "201",
+                            responseCode = "200",
                             description = "Todo created.",
                             content = @Content(
                                     mediaType = "application/json",

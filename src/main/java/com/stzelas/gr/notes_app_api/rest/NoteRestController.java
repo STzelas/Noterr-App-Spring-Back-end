@@ -67,7 +67,7 @@ public class NoteRestController {
             summary = "Save a note",
             responses = {
                     @ApiResponse(
-                            responseCode = "201",
+                            responseCode = "200",
                             description = "Note created.",
                             content = @Content(
                                     mediaType = "application/json",

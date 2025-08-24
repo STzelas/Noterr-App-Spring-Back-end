@@ -33,7 +33,7 @@ public class UserRestController {
             summary = "Registers a User",
             responses = {
                     @ApiResponse(
-                            responseCode = "201",
+                            responseCode = "200",
                             description = "User created.",
                             content = @Content(
                                     mediaType = "application/json",
