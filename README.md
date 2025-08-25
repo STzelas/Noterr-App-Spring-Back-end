@@ -87,6 +87,10 @@ gradlew bootRun
 
 4. App is ready to use!
 
+   ```
+    React: http://localhost:3000/
+   ```
+
 ## Future Improvements
 
 - Pagination for tasks
