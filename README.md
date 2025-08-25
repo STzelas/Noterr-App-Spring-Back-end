@@ -88,7 +88,7 @@ gradlew bootRun
 4. App is ready to use!
 
    ```
-   React Front: [http://localhost:3000/](http://localhost:3000/)
+   React Front: http://localhost:3000/
    Spring: http://localhost:8080/api (for endpoints)
    ```
 
