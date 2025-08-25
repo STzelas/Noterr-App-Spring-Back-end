@@ -26,7 +26,7 @@ The API is fully documented and testable via **Swagger UI**.
 - **Documentation:** Swagger (OpenAPI)
 - **Deployment:** Docker
 
-## Setup & Run Dev enviroment Locally
+## Setup & Run environment Locally
 
 1. **Clone the repository**
 
@@ -61,7 +61,7 @@ gradlew bootRun
 
 1. Download React Application
 
-    Download the zip code of the [Notes App Front-end React application](https://github.com/STzelas/Noterr-App-React-Front-end)
+    Download this apps [release](https://github.com/STzelas/Noterr-App-Spring-Back-end/releases/tag/v0.2.1) and the zip code of the [Notes App Front-end React application](https://github.com/STzelas/Noterr-App-React-Front-end)
 
 2. Extract the folder to a project-root folder
 
