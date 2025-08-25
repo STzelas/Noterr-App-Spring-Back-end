@@ -73,8 +73,9 @@ gradlew bootRun
 
 3. in spring-app/ deploy Docker
 
-   cd to spring-app/ and deploy the app
    ```
+   cd to spring-app/ and deploy the app
+   
    C:/project-root/spring-app/~
         docker-compose up --build
    ```
