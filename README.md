@@ -81,3 +81,9 @@ gradlew bootRun
    ```
 
 4. App is ready to use!
+
+## Future Improvements
+
+- Pagination for tasks
+- Better documentation
+- Even more specific error handling 
