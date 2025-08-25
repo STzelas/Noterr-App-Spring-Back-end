@@ -65,7 +65,7 @@ public class SecurityConfiguration {
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-        corsConfiguration.setAllowedOrigins(List.of("http://localhost:5173"));  // endpoints που επιτρέπονται να μας ζητήσουν request
+        corsConfiguration.setAllowedOrigins(List.of("http://localhost:5173", "http://localhost:3000"));  // endpoints που επιτρέπονται να μας ζητήσουν request
         corsConfiguration.setAllowedMethods(List.of("*"));   // ολες οι μεθοδοι
         corsConfiguration.setAllowedHeaders(List.of("*"));   // ολοι οι headers
         corsConfiguration.setAllowCredentials(true);

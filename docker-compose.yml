@@ -28,3 +28,9 @@ services:
     depends_on:
       mysql:
         condition: service_healthy
+  react-app:
+    build:
+      context: ../react-app
+      dockerfile: dockerfile
+    ports:
+      - "3000:80"
