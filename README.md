@@ -52,10 +52,15 @@ For Windows:
 gradlew bootRun
 ```
 
-4. Access Swagger UI
+4. Access Swagger UI or test with Postman
 
-   You can test all endpoints at:
-   http://localhost:8080/swagger-ui/index.html
+   You can test all endpoints at using Swagger:
+   - http://localhost:8080/swagger-ui/index.html
+   
+
+   or by downloading and importing Postman collection and environment:
+   - [SPRING-NOTES.postman_environment.json](https://github.com/user-attachments/files/21970909/SPRING-NOTES.postman_environment.json)
+   - [SPRING-NOTES.postman_collection.json](https://github.com/user-attachments/files/21970908/SPRING-NOTES.postman_collection.json)
 
 ## Deploy using Docker
 
@@ -87,3 +92,4 @@ gradlew bootRun
 - Pagination for tasks
 - Better documentation
 - Even more specific error handling 
+
