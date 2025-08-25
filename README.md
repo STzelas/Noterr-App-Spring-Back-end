@@ -94,6 +94,7 @@ gradlew bootRun
 
 ## Future Improvements
 
+- Encoding for Notes and Tasks in db
 - Pagination for tasks
 - Better documentation
 - Even more specific error handling 
